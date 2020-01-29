@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2e9e1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="#cbe86b">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bmdohyeon"
+            android:gravity="center"
+            android:text="음식 종류"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:background="#a8dba8"
+                    android:id="@+id/type_kor"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="한식"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:background="#79bd9a"
+                    android:id="@+id/type_chn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="중식"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:background="#a8dba8"
+                    android:id="@+id/type_jpn"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="일식"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/type_west"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#79bd9a"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:text="패스트푸드"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:background="#a8dba8"
+                    android:id="@+id/type_pizza"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="피자"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:background="#79bd9a"
+                    android:id="@+id/type_chick"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="치킨"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="30sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:background="#a8dba8"
+                    android:id="@+id/type_hamb"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="햄버거"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="26sp" />
+
+                <Button
+                    android:background="#79bd9a"
+                    android:id="@+id/type_snack"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="분식"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/type_jok"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#a8dba8"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:text="족발,보쌈"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#79bd9a"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:text="."
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#a8dba8"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:text="."
+                    android:textSize="30sp" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="#79bd9a"
+                    android:fontFamily="@font/bmdohyeon"
+                    android:text="."
+                    android:textSize="30sp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="510dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/mypage"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="0"
+            android:fontFamily="@font/bmdohyeon"
+            android:background="#3b8686"
+            android:textColor="#ffffff"
+            android:text="내 정보" />
+
+        <Button
+            android:background="#3b8686"
+            android:id="@+id/logout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:fontFamily="@font/bmdohyeon"
+            android:textColor="#ffffff"
+            android:text="로그아웃" />
+    </LinearLayout>
+
+</RelativeLayout>
